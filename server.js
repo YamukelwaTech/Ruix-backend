@@ -4,8 +4,7 @@ const jwt = require("jsonwebtoken");
 const passport = require("passport");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
 const pool = require("./db");
-const cors = require("cors"); // Importing cors middleware
-require("dotenv").config();
+const cors = require("cors");
 
 const app = express();
 const port = process.env.PORT || 5000;
