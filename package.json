@@ -1,9 +1,10 @@
 {
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "argon2": "^0.40.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "google-auth-library": "^9.11.0",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.10.1",
     "passport": "^0.7.0",
